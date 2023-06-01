@@ -1,5 +1,5 @@
-<h1 align="center">前端笔记</h1>
-<p align="center"><b>简单记录学习的一点一滴</b></p>
+<h1 align="center">Frontend Notes</h1>
+<p align="center"><b>Just recording...</b></p>
 
 <p align="center">
 
@@ -22,39 +22,39 @@
 <strong>
 <samp>
 
-[English](README_en.md) · 简体中文
+English · [简体中文](RAEDME.md)
 
 </samp>
 </strong>
 </div>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![docs](https://user-images.githubusercontent.com/4677417/186189283-0831b9ab-d6b9-485d-8955-3057e532ab31.png)
-## 快速开始
+## Quick Start
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/docs)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/docs)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/docs/devcontainer.json)
 
-### 本地开发
-所有命令都从项目的根目录下，在终端中运行：
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-| 命令                       | 操作                         |
-| :------------------------ | :----------------------------|
-| `pnpm i`                  | 安装依赖                      |
-| `pnpm run dev`            | 启动本地服务 `localhost:3000`  |
-| `pnpm run start`          | 构建生成环境代码到 `./dist/`    |
-| `pnpm run build`          | 构建生成环境代码到 `./dist/`    |
-| `npm run preview`         | 在部署之前，本地预览您的构建     |
-| `npm run astro ...`       | 运行类似 `astro add`、`astro check` 的 CLI 命令 |
-| `npm run astro -- --help` | 获取有关使用 Astro CLI 的帮助   |
+![docs](https://user-images.githubusercontent.com/4677417/186189283-0831b9ab-d6b9-485d-8955-3057e532ab31.png)
 
-将您的网站部署到生产环境，请查看[Deploy an Astro Website](https://docs.astro.build/guides/deploy)指南。
+
+### Local Dev
+All commands are run from the root of the project, from a terminal:
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `pnpm i`             | Installs dependencies                            |
+| `pnpm run dev`             | Starts local dev server at `localhost:3000`      |
+| `pnpm run start`           | Build your production site to `./dist/`          |
+| `pnpm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+To deploy your site to production, check out our [Deploy an Astro Website](https://docs.astro.build/guides/deploy) guide.
 
 [→ see the demo](www.me.vercel.app)
 
-### 项目结构:
-
+### Project Structure  :
 
 ```diff
 ┣ ── package.json
@@ -115,7 +115,8 @@
 ┃       └── theme.css
 └── tsconfig.json
 ```
-## 贡献者
+
+## Contributors
 
 <table>
     <tbody>
@@ -127,7 +128,7 @@
     </tbody>
 </table>
 
-## 代做清单
+## TodoList
 
 - ✅ **CI/CD with Netlify**
 - ✅ **Full Markdown support**
@@ -139,6 +140,6 @@
 - ✅ **Automatic list of contributors**
 - ✅ (and, best of all) **dark mode**
 
-## 协议
+## Lisence
 
 - [MIT](https://opensource.org/licenses/MIT)
