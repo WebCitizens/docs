@@ -1,14 +1,17 @@
 ---
 import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from "../../languages";
-import * as CONFIG from "../../config";
+import { SITE } from "../../consts";
 import AstroLogo from "./AstroLogo.astro";
 import SkipToContent from "./SkipToContent.astro";
 import SidebarToggle from "./SidebarToggle";
 import LanguageSelect from "./LanguageSelect";
 import Search from "./Search";
+type Props = {
+  currentPage: string;
+};
 
 const { currentPage } = Astro.props;
-const lang = currentPage && getLanguageFromURL(currentPage);
+const lang = getLanguageFromURL(currentPage);
 ---
 
 <header>
@@ -20,7 +23,7 @@ const lang = currentPage && getLanguageFromURL(currentPage);
     <div class="logo flex">
       <a href="/">
         <AstroLogo size={40} />
-        <h1>{lang == "en" ? CONFIG.SITE.title : "前端群玉阁"}</h1>
+        <h1>{lang === "en" ? "Documentation" : "文档"}</h1>
       </a>
     </div>
     <div style="flex-grow: 1;"></div>
@@ -29,13 +32,9 @@ const lang = currentPage && getLanguageFromURL(currentPage);
         <LanguageSelect lang={lang} client:idle />
       )
     }
-    {
-      CONFIG.ALGOLIA && (
-        <div class="search-item">
-          <Search client:idle />
-        </div>
-      )
-    }
+    <div class="search-item">
+      <Search client:idle />
+    </div>
   </nav>
 </header>
 
@@ -107,14 +106,17 @@ const lang = currentPage && getLanguageFromURL(currentPage);
       position: static;
       padding: 2rem 0rem;
     }
+
     .logo {
       width: auto;
       margin: 0;
       z-index: 0;
     }
+
     .logo h1 {
       display: initial;
     }
+
     .menu-toggle {
       display: none;
     }
@@ -135,12 +137,16 @@ const lang = currentPage && getLanguageFromURL(currentPage);
     display: flex;
     max-width: 200px;
   }
-  :global(.search-item > *) {
-    flex-grow: 1;
-  }
+
   @media (min-width: 50em) {
     .search-item {
       max-width: 400px;
     }
+  }
+</style>
+
+<style is:global>
+  .search-item > * {
+    flex-grow: 1;
   }
 </style>
