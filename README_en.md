@@ -1,5 +1,5 @@
-<h1 align="center">前端笔记</h1>
-<p align="center"><b>简单记录学习的一点一滴</b></p>
+<h1 align="center">Frontend Notes</h1>
+<p align="center"><b>Just recording...</b></p>
 
 <p align="center">
 
@@ -22,30 +22,30 @@
 <strong>
 <samp>
 
-[English](README_en.md) · 简体中文
+English · [简体中文](RAEDME.md)
 
 </samp>
 </strong>
 </div>
 
-## 快速开始
+## Quick Start
 
-### 本地开发
+### Usage
 
 ```bash
-# 安装依赖
+# install dependencies
 pnpm i 
 
-# 启动服务
+# start dev server
 pnpm run dev
 
-# 打包构建
+# build for production
 pnpm run build
 ```
 
 [→ see the demo](www.me.vercel.app)
 
-### 项目结构:
+### Project Structure
 
 ```
 ├── package.json
@@ -98,8 +98,7 @@ pnpm run build
 ```
 
 
-
-## 贡献者
+## Contributors
 
 <table>
     <tbody>
@@ -111,11 +110,11 @@ pnpm run build
     </tbody>
 </table>
 
-## 协议
+## License
 
 - [MIT](https://opensource.org/licenses/MIT)
 
-## 代做清单
+## To be done..
 
 - [x] i18n
 - [x] Dark Mode
