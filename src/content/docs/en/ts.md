@@ -1,6 +1,7 @@
 ---
-title: "Page 3"
-description: "Lorem ipsum dolor sit amet - 3"
+title: "TypeScirpt Interview"
+description: "Interview question for TypeScript"
 ---
 
-敬请期待...
+
+to be done...

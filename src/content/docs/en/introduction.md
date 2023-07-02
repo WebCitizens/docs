@@ -3,9 +3,9 @@ title: "Introduction"
 description: "Docs intro"
 ---
 
-**Welcome to Astro!**
+**Welcome to JadeChamber!**
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
+This is the `docs` for Front-end learning. Power by `Astro` and it contains all of the features that you need to build a Markdown-powered documentation site, including:
 
 - ✅ **Full Markdown support**
 - ✅ **Responsive mobile-friendly design**
@@ -14,12 +14,30 @@ This is the `docs` starter template. It contains all of the features that you ne
 - ✅ **Multi-language i18n**
 - ✅ **Automatic table of contents**
 - ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+- ✅ **dark mode**
 
 ## Getting Started
 
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
+```bash {1}
+# recommend use yarn/pnpm as your node.js package manager 
+pnpm i
 
-Found a missing feature that you can't live without? Please suggest it [on our Discord](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
+pnpm run dev
 
-Good luck out there, Astronaut. 🧑‍🚀
+pnpm run build
+```
+
+
+## Contributor
+
+
+Found a missing feature that you can't live without? Please suggest it [on our Discord](https://discord.gg/9uVvRHXDDs) and even consider adding it yourself on GitHub! 
+
+- Any `issue` or `PR` are welcome !
+
+
+## To be done...
+
+- [ ] **Use Github to Auth / Login**
+- [ ] **Animation**
+- [ ] **Comment**

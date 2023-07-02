@@ -1,6 +1,6 @@
 ---
-title: "Page 2"
-description: "Lorem ipsum dolor sit amet - 2"
+title: "小满-中级前端面试题"
+description: "由小满zs 整理的前端面试题"
 ---
 
 ## 自我介绍
