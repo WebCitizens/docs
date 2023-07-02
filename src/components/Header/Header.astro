@@ -1,11 +1,10 @@
 ---
 import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from "../../languages";
-import { SITE } from "../../consts";
 import AstroLogo from "./AstroLogo.astro";
-import SkipToContent from "./SkipToContent.astro";
-import SidebarToggle from "./SidebarToggle";
 import LanguageSelect from "./LanguageSelect";
 import Search from "./Search";
+import SidebarToggle from "./SidebarToggle";
+import SkipToContent from "./SkipToContent.astro";
 type Props = {
   currentPage: string;
 };
@@ -23,7 +22,7 @@ const lang = getLanguageFromURL(currentPage);
     <div class="logo flex">
       <a href="/">
         <AstroLogo size={40} />
-        <h1>{lang === "en" ? "Documentation" : "文档"}</h1>
+        <h1>{lang === "en" ? "JadeChamber" : "前端群玉阁"}</h1>
       </a>
     </div>
     <div style="flex-grow: 1;"></div>

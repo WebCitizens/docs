@@ -1,6 +1,6 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
+	title: 'JadeChamber',
+	description: 'Amazing Astro site for Frontend Developers',
 	defaultLanguage: 'en-us',
 } as const;
 
@@ -39,15 +39,18 @@ export const SIDEBAR: Sidebar = {
 	en: {
 		'Section Header': [
 			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+			{ text: 'Xiaoman - interview', link: 'en/xmzs' },
+			{ text: 'TypeScript - interview', link: 'en/ts' },
+			{ text: 'Learn - Resource', link: 'en/resource' },
 		],
 	},
 	zh: {
 		'章节标题': [
 			{ text: '介绍', link: 'zh/introduction' },
-			{ text: '页面2', link: 'zh/page-2' },
-			{ text: '页面3', link: 'zh/page-3' },
+			{ text: '小满zs - 前端面试题', link: 'zh/xmzs' },
+			{ text: 'TypeScript - 面试题', link: 'zh/ts' },
+			{ text: '学习资源', link: 'zh/resource' },
+
 		],
 	},
 };
